@@ -43,7 +43,7 @@ export default function App() {
         />
         <Stack.Screen
         name="Estoque"
-        component={DrawerTabs}
+        component={DrawerTabs} /* essa função nunca é chamada no Stack por algum motivo mas ela funciona  */
         >
         </Stack.Screen>
       </Stack.Navigator>
