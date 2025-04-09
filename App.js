@@ -46,7 +46,19 @@ export default function App() {
         component={DrawerTabs} /* essa função nunca é chamada no Stack por algum motivo mas ela funciona  */
         >
         </Stack.Screen>
-      </Stack.Navigator>
+      /* </Stack.Navigator>
+
+        <Drawer.Navigator>
+        <Drawer.Screen
+        name="Estoque"
+        component={Estoque}  prof to só deixando comentario de ultima hora, mas descomenta essa linha pra aparecer o estoque e contato e comenta todo stack pra n interferir
+
+        />
+        <Drawer.Screen
+        name="Contato"
+        component={Contato}
+        />
+      </Drawer.Navigator> */
       </NavigationContainer>
   );
 }
